@@ -42,7 +42,7 @@ Workflow python scripts will each have an accompanying example workflow yml file
 ### Changelog and release
 
 * changelog_and_release.py
- * Note that this scripts is checked out by any binary add-on project project that leverages changelog and release workflow
+  - Note that this scripts is checked out by any binary add-on project project that leverages changelog and release workflow
 * example-workflow-chglog-rls.yml
 
 ### Other notes
