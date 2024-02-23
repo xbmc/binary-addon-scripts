@@ -1,0 +1,4 @@
+all
+kodi-pvr
+all-kodi-pvr
+xbmc
