@@ -1,5 +1,5 @@
-# PVR Scripts for automation
-Used to automate PVR client addon maintenance tasks for [Kodi](https://kodi.tv)
+# Binary add-on Scripts for automation
+Used to automate Binary add-on addon maintenance tasks for [Kodi](https://kodi.tv)
 
 ## Pre-requisites
 
@@ -16,6 +16,8 @@ The full repo list can be found in `config/pvr-repos.txt`. Running any of the co
 
 Default configuation values are defined in `config/config.ini`. Such values include the default branch name which is used to subsitute for `default` in `config/pvr-repos.txt`.
 
+0. **Forking**
+    * The fork must exist in order for following tasks to be automated. This scripts create forks if they do not exist.
 1. **Cloning**
     * The repo github directory must not exist for this to be successful. Repos will be set-up with the users fork as `origin` and base repo as `upstream`. The release branch (e.g. `Matrix`, `Nexus`) will tracked to the `upstream`.
 2. **Creating branches**
@@ -40,6 +42,7 @@ Workflow python scripts will each have an accompanying example workflow yml file
 ### Changelog and release
 
 * changelog_and_release.py
+ * Note that this scripts is checked out by any binary add-on project project that leverages changelog and release workflow
 * example-workflow-chglog-rls.yml
 
 ### Other notes
